@@ -33,9 +33,6 @@ const AuthContextProvider = ({ children }) => {
           user: null,
      })
 
-     console.log(userList)
-
-
      const loadUser = () => {
           if (localStorage['data'])
                dispatch({
@@ -60,7 +57,6 @@ const AuthContextProvider = ({ children }) => {
      }, [])
 
      const loginUser = ({ id, password }) => {
-          console.log(id, password)
           if (!id || !password) {
                alert('missing user is or/and password!')
                return
@@ -82,7 +78,7 @@ const AuthContextProvider = ({ children }) => {
                          user: id
                     }
                })
-               alert('đăng nhập thành công!')
+               alert('user login successfully')
           }
      }
 

@@ -1,12 +1,12 @@
 login with accounts down here:
-- id: dogs , pass: 123
-- id: cat , pass: 321
-- id: fish , pass: 111
-- id: bird , pass: 121
+- id: dogs@gmail.com , pass: 123
+- id: cat@gmail.com , pass: 321
+- id: fish@gmail.com , pass: 111
+- id: bird@gmail.com , pass: 121
 
-- preview at ...
+- preview at https://tony-animals-app.herokuapp.com/
 
 --- what i used
-- react Hook (useState, useReducer, useEffect)
+- react Hook (useState, useReducer, useEffect, useRef)
 - react-router-dom
 - react-icons

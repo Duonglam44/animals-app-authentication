@@ -10,7 +10,7 @@ const Header = () => {
           <div className="header__wrapper">
                <div className='container header'>
                     <div className='header__author'>
-                         <p>wellcome {user}</p>
+                         <p>wellcome {user.split('@')[0]}</p>
                     </div>
                     <button className='logout-btn' onClick={logoutUser}>Log out</button>
                </div>

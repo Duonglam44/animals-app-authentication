@@ -1,18 +1,18 @@
 const user = [
      {
-          id: 'dogs',
+          id: 'dogs@gmail.com',
           password: '123'
      },
      {
-          id: 'cat',
+          id: 'cat@gmail.com',
           password: '321'
      },
      {
-          id: 'fish',
+          id: 'fish@gmail.com',
           password: '111'
      },
      {
-          id: 'bird',
+          id: 'bird@gmail.com',
           password: '121'
      },
 ]

@@ -96,13 +96,15 @@ nav {
   border: 1px solid #006fff;
 }
 .page-item:hover{
-     background: #006fff
+   background: #006fff
+}
+.page-item.active{
+  background: #006fff;
 }
 
 .page-item:hover .page-link,
 .page-item.active .page-link {
   color: white;
-  background: #006fff;
 }
 .page-item:not(:last-child) {
   border-right: none;

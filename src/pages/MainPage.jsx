@@ -29,7 +29,6 @@ const MainPage = () => {
                <Header />
                <div className='main__wrapper'>
                     <div className="container grid">
-                         {console.log(currentList)}
                          {
                               currentList.map((item, index) => (
                                    <Card
