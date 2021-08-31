@@ -1,0 +1,25 @@
+.header__wrapper{
+     border: 1px solid black;
+     padding: 10px 0;
+     background: #000;
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     height: 70px;
+     align-items: center;
+}
+.header__author > p{
+     color: white;
+     font-size: 20px;
+     font-weight: 500;
+}
+.logout-btn {
+     outline: none;
+     border: none;
+     padding: 15px 20px;
+     border-radius: 10px;
+     background: #d90f0fbd;
+     font-size: 20px;
+     color: white;
+}
